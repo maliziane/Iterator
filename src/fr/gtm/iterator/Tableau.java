@@ -2,13 +2,16 @@ package fr.gtm.iterator;
 
 public class Tableau implements List{
 	
-	 List<Integer> tab = new Tableau();
-	 int nombreElement;
-	 int[] tab = new tab[];
+	
+	private int size;
+	 private int[] tab;
 	 
-	 public Iterator<Integer> iterator() {
+	 public 
+	 public  Iterator iterator() {
 		 return new TableauIterator(this);
 	 }
+	
+	 
 	 
 	 }
 	
